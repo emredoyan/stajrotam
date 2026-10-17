@@ -1,0 +1,80 @@
+@import "tailwindcss";
+/* Tarayıcının form alanlarını da seçilen temaya uyarlar. */
+:root {
+  color-scheme: light;
+}
+
+:root.dark {
+  color-scheme: dark;
+  background-color: #0f172a;
+}
+
+/* Sayfa ve kartlar */
+.dark .bg-slate-100 {
+  background-color: #0f172a;
+}
+
+.dark .bg-white {
+  background-color: #1e293b;
+}
+
+/* Yazılar */
+.dark .text-slate-900 {
+  color: #f1f5f9;
+}
+
+.dark .text-slate-700 {
+  color: #e2e8f0;
+}
+
+.dark .text-slate-600,
+.dark .text-slate-500 {
+  color: #cbd5e1;
+}
+
+/* Kart ve form kenarlıkları */
+.dark .border-slate-200,
+.dark .border-slate-300 {
+  border-color: #475569;
+}
+
+/* Mavi etiketler ve istatistikler */
+.dark .bg-blue-50 {
+  background-color: #172554;
+}
+
+.dark .text-blue-600,
+.dark .text-blue-700 {
+  color: #93c5fd;
+}
+
+.dark .text-amber-600 {
+  color: #fcd34d;
+}
+
+.dark .text-purple-600 {
+  color: #d8b4fe;
+}
+
+.dark .text-emerald-600 {
+  color: #6ee7b7;
+}
+
+/* Silme düğmesi */
+.dark .text-red-600 {
+  color: #fca5a5;
+}
+
+.dark .border-red-200 {
+  border-color: #7f1d1d;
+}
+
+@media (hover: hover) {
+  .dark .hover\:bg-slate-100:hover {
+    background-color: #334155;
+  }
+
+  .dark .hover\:bg-red-50:hover {
+    background-color: #450a0a;
+  }
+}
